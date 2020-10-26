@@ -1,1 +1,18 @@
-
+a=int(input())
+n=int(input())
+b=a+n
+while a<=10**9 and n<=10**9:
+  if a>0 and n>0:
+    print(b)
+  elif a>0 and n<0:
+    print(b)
+   if b<=0:
+    print(b-1)    
+  elif a<0 and n>0:
+    print(b)
+ if b>=0:
+    print(b+1) 
+ elif a<0 and n<0:
+   print(a - n)
+ if b>=0:
+   print(b+1)    
